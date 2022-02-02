@@ -32,6 +32,7 @@
 ## Bônus 2.0
 - [Descomplicando kubernetes](https://github.com/badtuxx/DescomplicandoKubernetes/tree/main/pt)
 - [Kubernetes course](https://github.com/wardviaene/kubernetes-course)
+- [CNCF](https://landscape.cncf.io/)
 
 ## Exemplo prático
 
