@@ -36,9 +36,10 @@
 ## Exemplo prático
 
 Iremos utilizar os arquivos da pasta resources
+- Acessem a URL `db1.dflourusso.com.br/app1`
 - Apply deployment `kubectl apply -f deployment.yaml`
 - Apply service `kubectl apply -f service.yaml`
 - Scale deployment `kubectl scale --replicas=5 deployment app1`
 - Apply ingress `kubectl apply -f service.yaml`
-- Acessem a URL `db1.dflourusso.com.br/app1`
+- Loop no serviço `while true; do curl -s http://db1.dflourusso.com.br/app1 | grep toc_0 | cut -d '>' -f2 | cut -d '<' -f1; sleep 1; done`
 - Update deployment `kubectl edit deployment app1`
