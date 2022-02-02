@@ -26,6 +26,7 @@
 - [Namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/)
 - [Access control](https://kubernetes.io/docs/reference/access-authn-authz/)
 - [Volumes](https://kubernetes.io/docs/concepts/storage/volumes/)
+- SSL: Load balancer ou CertManager + LetsEncrypt
 - [Dashboard](https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/)
 
 ## Bônus 2.0
